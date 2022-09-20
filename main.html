@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML,CSS,Javascript" />
+    <meta name="author" content="vakho" />
+    <link rel="stylesheet" href="./main.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"
+      integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/css/bootstrap.min.css"
+      integrity="sha512-siwe/oXMhSjGCwLn+scraPOWrJxHlUgMBMZXdPe2Tnk3I0x3ESCoLz7WZ5NTH6SZrywMY+PB1cjyqJ5jAluCOg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+    <title>Main page</title>
+  </head>
+  <body>
+    <main>
+      <canvas id="canvas"></canvas>
+    </main>
+    <aside>
+      <div class="input-wrapper">
+        <label for="uploader">Select file: </label>
+        <input type="file" id="uploader" />
+      </div>
+      <div class="effects">
+        <button>Greyscale</button>
+        <button>Sepia</button>
+        <button>Invert</button>
+        <button>RGB - RBG</button>
+        <button>RGB - BGR</button>
+        <button>RGB - GBR</button>
+        <button>RGB - GRB</button>
+      </div>
+      <div class="controls">
+        <button>Clear</button>
+        <button>Download</button>
+      </div>
+    </aside>
+  </body>
+  <script defer src="./main.js"></script>
+</html>

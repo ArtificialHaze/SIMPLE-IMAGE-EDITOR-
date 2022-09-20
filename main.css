@@ -1,0 +1,76 @@
+/* GLOBAL STYLING */
+
+html {
+  font-size: 15px;
+}
+
+body {
+  background: rgb(48, 47, 47);
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 3;
+}
+
+aside {
+  flex: 1;
+  margin-left: 0.5rem;
+}
+
+button {
+  text-align: left;
+  background: rgb(21, 20, 20);
+  padding: 1.6rem 0rem 1.6rem 2rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: rgb(212, 210, 210);
+  border: none;
+  border-bottom: 1px solid;
+  transition: hover 300ms ease-in-out;
+}
+
+button:hover {
+  background: rgb(50, 47, 47);
+}
+
+label {
+  font-size: 1.8rem;
+  padding-right: 1.6rem;
+}
+
+canvas {
+  width: 100%;
+}
+
+/* MAIN STYLING */
+
+.input-wrapper {
+  background: gray;
+  padding: 1.6rem;
+}
+
+.effects {
+  display: flex;
+  flex-direction: column;
+}
+
+.controls {
+  display: flex;
+}
+
+.controls > button {
+  flex: 1;
+  border-bottom: none;
+  text-align: center;
+  padding: 1.6rem 0;
+}
+
+/* RESNPONSIVE */
+
+@media (min-width: 1000px) {
+  body {
+    flex-direction: row;
+  }
+}
